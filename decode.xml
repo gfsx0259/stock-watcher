@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
+    <data id="securities">
+        <metadata>
+            <columns>
+                <column name="SECID" type="string" bytes="36" max_size="0" />
+                <column name="BOARDID" type="string" bytes="12" max_size="0" />
+                <column name="SHORTNAME" type="string" bytes="30" max_size="0" />
+                <column name="PREVPRICE" type="double" />
+                <column name="LOTSIZE" type="int32" />
+                <column name="FACEVALUE" type="double" />
+                <column name="STATUS" type="string" bytes="3" max_size="0" />
+                <column name="BOARDNAME" type="string" bytes="381" max_size="0" />
+                <column name="DECIMALS" type="int32" />
+                <column name="SECNAME" type="string" bytes="90" max_size="0" />
+                <column name="REMARKS" type="string" bytes="24" max_size="0" />
+                <column name="MARKETCODE" type="string" bytes="12" max_size="0" />
+                <column name="INSTRID" type="string" bytes="12" max_size="0" />
+                <column name="SECTORID" type="string" bytes="12" max_size="0" />
+                <column name="MINSTEP" type="double" />
+                <column name="PREVWAPRICE" type="double" />
+                <column name="FACEUNIT" type="string" bytes="12" max_size="0" />
+                <column name="PREVDATE" type="date" bytes="10" max_size="0" />
+                <column name="ISSUESIZE" type="int64" />
+                <column name="ISIN" type="string" bytes="36" max_size="0" />
+                <column name="LATNAME" type="string" bytes="90" max_size="0" />
+                <column name="REGNUMBER" type="string" bytes="90" max_size="0" />
+                <column name="PREVLEGALCLOSEPRICE" type="double" />
+                <column name="PREVADMITTEDQUOTE" type="double" />
+                <column name="CURRENCYID" type="string" bytes="12" max_size="0" />
+                <column name="SECTYPE" type="string" bytes="3" max_size="0" />
+                <column name="LISTLEVEL" type="int32" />
+                <column name="SETTLEDATE" type="date" bytes="10" max_size="0" />
+            </columns>
+        </metadata>
+    </data>
     <data id="marketdata">
         <rows>
             <row SECID="AFKS"
@@ -57,7 +91,11 @@
                  ISSUECAPITALIZATION_UPDATETIME="15:37:01"
                  ETFSETTLECURRENCY=""
                  VALTODAY_RUR="119617740"
-            >4er</row>
+            />
+            <row SECID="ALNU" BOARDID="TQBR" SHORTNAME="АЛРОСА-Нюр" BID="15.607" PREVPRICE="47800" LOTSIZE="1" FACEVALUE="25" STATUS="A" BOARDNAME="Т+: Акции и ДР - безадрес." DECIMALS="0" SECNAME="АЛРОСА-Нюрба ПАО ао" REMARKS="" MARKETCODE="FNDT" INSTRID="EQIN" SECTORID="EQ-N" MINSTEP="200" PREVWAPRICE="48000" FACEUNIT="SUR" PREVDATE="2020-05-07" ISSUESIZE="800000" ISIN="RU000A0JP468" LATNAME="ALROSA-Nurba ao" REGNUMBER="1-01-20179-F" PREVLEGALCLOSEPRICE="47800" PREVADMITTEDQUOTE="47800" CURRENCYID="SUR" SECTYPE="1" LISTLEVEL="3" SETTLEDATE="2020-05-13" />
+            <row SECID="ALRS" BOARDID="TQBR" SHORTNAME="АЛРОСА ао" PREVPRICE="62.51" LOTSIZE="10" FACEVALUE="0.5" STATUS="A" BOARDNAME="Т+: Акции и ДР - безадрес." DECIMALS="2" SECNAME="АЛРОСА ПАО ао" REMARKS="" MARKETCODE="FNDT" INSTRID="EQIN" SECTORID="EQ-N" MINSTEP="0.01" PREVWAPRICE="62.25" FACEUNIT="SUR" PREVDATE="2020-05-07" ISSUESIZE="7364965630" ISIN="RU0007252813" LATNAME="ALROSA ao" REGNUMBER="1-03-40046-N" PREVLEGALCLOSEPRICE="62.51" PREVADMITTEDQUOTE="62.51" CURRENCYID="SUR" SECTYPE="1" LISTLEVEL="1" SETTLEDATE="2020-05-13" />
+            <row SECID="AMEZ" BOARDID="TQBR" SHORTNAME="АшинскийМЗ" PREVPRICE="3.975" LOTSIZE="100" FACEVALUE="1" STATUS="A" BOARDNAME="Т+: Акции и ДР - безадрес." DECIMALS="3" SECNAME=" Ашинский метзавод ПАО ао" REMARKS="" MARKETCODE="FNDT" INSTRID="EQIN" SECTORID="EQ-N" MINSTEP="0.005" PREVWAPRICE="3.995" FACEUNIT="SUR" PREVDATE="2020-05-07" ISSUESIZE="498454822" ISIN="RU000A0B88G6" LATNAME="Ashinckiy metzavod PAO" REGNUMBER="1-03-45219-D" PREVLEGALCLOSEPRICE="3.975" PREVADMITTEDQUOTE="3.975" CURRENCYID="SUR" SECTYPE="1" LISTLEVEL="2" SETTLEDATE="2020-05-13" />
+            <row SECID="APTK" BOARDID="TQBR" SHORTNAME="Аптеки36и6" PREVPRICE="13.774" LOTSIZE="10" FACEVALUE="0.64" STATUS="A" BOARDNAME="Т+: Акции и ДР - безадрес." DECIMALS="3" SECNAME="ПАО &quot;Аптечная сеть 36,6&quot; ао" REMARKS="" MARKETCODE="FNDT" INSTRID="EQIN" SECTORID="EQ-N" MINSTEP="0.002" PREVWAPRICE="13.744" FACEUNIT="SUR" PREVDATE="2020-05-07" ISSUESIZE="6708243398" ISIN="RU0008081765" LATNAME="Apteki 36,6" REGNUMBER="1-01-07335-A" PREVLEGALCLOSEPRICE="13.774" PREVADMITTEDQUOTE="13.774" CURRENCYID="SUR" SECTYPE="1" LISTLEVEL="2" SETTLEDATE="2020-05-13" />
         </rows>
     </data>
 </document>
